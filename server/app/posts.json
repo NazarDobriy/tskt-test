@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "title": "It is title 1",
+    "summary": "It is summary 1",
+    "tags": ["tag 1", "tag 2", "tag 3"],
+    "content": "some content 1"
+  },
+  {
+    "id": 1,
+    "title": "It is title 2",
+    "summary": "It is summary 2",
+    "tags": ["tag 1", "tag 2"],
+    "content": "some content 2"
+  }
+]
