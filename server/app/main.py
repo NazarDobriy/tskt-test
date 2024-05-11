@@ -1,8 +1,5 @@
 from fastapi import FastAPI
+from app import posts_router
 
 app = FastAPI()
-
-
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+app.include_router(posts_router)
