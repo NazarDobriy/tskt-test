@@ -12,6 +12,7 @@ import { IPost } from 'src/types/post.interface';
 })
 export class PostComponent implements OnInit, OnDestroy {
   post: IPost | null = null;
+  isLoading = true;
   private postId = 0;
   private destroy$ = new Subject<void>();
 
@@ -29,7 +30,10 @@ export class PostComponent implements OnInit, OnDestroy {
     this.postApiService
       .getPostById(this.postId)
       .pipe(takeUntil(this.destroy$))
-      .subscribe((post: IPost) => (this.post = post));
+      .subscribe((post: IPost) => {
+        this.post = post;
+        this.isLoading = false;
+      });
   }
 
   ngOnDestroy(): void {
