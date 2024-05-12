@@ -12,6 +12,7 @@ import { IPost } from 'src/types/post.interface';
 export class HomeComponent implements OnInit, OnDestroy {
   posts: IPost[] = [];
   allTags: string[] = [];
+  isLoading = true;
   private destroy$ = new Subject<void>();
 
   constructor(private postApiService: PostApiService) {}
@@ -21,13 +22,19 @@ export class HomeComponent implements OnInit, OnDestroy {
   }
 
   handlePostsByTags(tags: string[]): void {
+    this.isLoading = true;
+
     if (tags.length) {
       this.postApiService
         .getPostsByTags(tags)
         .pipe(takeUntil(this.destroy$))
-        .subscribe((posts: IPost[]) => (this.posts = posts));
+        .subscribe((posts: IPost[]) => {
+          this.posts = posts;
+          this.isLoading = false;
+        });
       return;
     }
+
     this.fetchPosts();
   }
 
@@ -37,6 +44,7 @@ export class HomeComponent implements OnInit, OnDestroy {
       .pipe(takeUntil(this.destroy$))
       .subscribe((posts: IPost[]) => {
         this.posts = posts;
+        this.isLoading = false;
         this.extractTags();
       });
   }
