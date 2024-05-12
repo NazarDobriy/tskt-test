@@ -17,12 +17,13 @@
       [formControl]="tagCtrl"
       [matChipInputFor]="chipGrid"
       [matAutocomplete]="auto"
+      [(ngModel)]="searchTag"
     />
     <mat-autocomplete
       #auto="matAutocomplete"
       (optionSelected)="selected($event)"
     >
-      <ng-container *ngFor="let tag of allTags">
+      <ng-container *ngFor="let tag of allTags | searchFilter : searchTag">
         <mat-option [value]="tag">{{ tag }}</mat-option>
       </ng-container>
     </mat-autocomplete>

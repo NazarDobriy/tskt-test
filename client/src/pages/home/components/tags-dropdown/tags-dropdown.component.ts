@@ -19,6 +19,7 @@ export class TagsDropdownComponent {
   @Output() tagsSelect = new EventEmitter<string[]>();
   @ViewChild('tagInput') tagInput!: ElementRef<HTMLInputElement>;
 
+  searchTag = '';
   tags: string[] = [];
   tagCtrl = new FormControl('');
 
