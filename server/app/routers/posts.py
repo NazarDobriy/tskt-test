@@ -21,7 +21,7 @@ async def read_post_by_id(post_id: int):
     raise HTTPException(status_code=404, detail="Post not found")
 
 
-@router.get("/filter/by/tags", response_model=List[Post])
+@router.post("/filter/by/tags", response_model=List[Post])
 async def search_posts_by_tag(request: TagFilterRequest):
     tags = request.tags
 
