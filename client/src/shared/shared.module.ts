@@ -6,6 +6,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { MatChipsModule } from '@angular/material/chips';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 import { PostCardComponent } from './components/post-card/post-card.component';
 
@@ -17,6 +18,7 @@ import { PostCardComponent } from './components/post-card/post-card.component';
     MatFormFieldModule,
     MatIconModule,
     MatAutocompleteModule,
+    MatProgressSpinnerModule,
     MatChipsModule,
     FormsModule,
     ReactiveFormsModule
