@@ -4,48 +4,48 @@
     "title": "Cat",
     "summary": "Cats are small carnivorous mammals",
     "tags": ["cat", "animals", "cute"],
-    "content": "### A cat is a small domesticated carnivorous mammal with soft fur, retractile claws, and typically a long, slender body. They are often kept as pets for companionship and are known for their agility, grace, and independent nature. Cats have been domesticated for thousands of years and have a significant presence in human culture worldwide.\n![Cat](http://127.0.0.1:8000/static/images/cat.jpg)"
+    "content": "### A cat is a small domesticated carnivorous mammal with soft fur, retractile claws, and typically a long, slender body. They are often kept as pets for companionship and are known for their agility, grace, and independent nature. Cats have been domesticated for thousands of years and have a significant presence in human culture worldwide.\n![Cat](http://127.0.0.1:8001/static/images/cat.jpg)"
   },
   {
     "id": 1,
     "title": "Dog",
     "summary": "Dogs are domesticated mammals known for their loyalty, companionship, and versatility",
     "tags": ["animals", "dog", "loyalty", "versatility"],
-    "content": "### A dog is a domesticated carnivorous mammal that has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes. Dogs are often kept as pets for companionship and for their ability to perform various tasks, such as herding, hunting, guarding, and assisting people with disabilities. They come in a wide range of breeds, each with its own unique characteristics in terms of size, coat type, temperament, and skills. Dogs are known for their loyalty, intelligence, and affection towards humans, making them one of the most popular and beloved animals worldwide.\n![Dog](http://127.0.0.1:8000/static/images/dog.jpg)"
+    "content": "### A dog is a domesticated carnivorous mammal that has been selectively bred over millennia for various behaviors, sensory capabilities, and physical attributes. Dogs are often kept as pets for companionship and for their ability to perform various tasks, such as herding, hunting, guarding, and assisting people with disabilities. They come in a wide range of breeds, each with its own unique characteristics in terms of size, coat type, temperament, and skills. Dogs are known for their loyalty, intelligence, and affection towards humans, making them one of the most popular and beloved animals worldwide.\n![Dog](http://127.0.0.1:8001/static/images/dog.jpg)"
   },
   {
     "id": 2,
     "title": "Phone",
     "summary": "Phones are communication devices that enable users to transmit voice, text, and multimedia messages over distances",
     "tags": ["phone", "device", "technology", "communication", "small size"],
-    "content": "### A phone, short for telephone, is a telecommunications device that allows users to transmit voice or other forms of communication over distances. Originally, phones were primarily used for voice communication, but modern smartphones also offer features like text messaging, internet browsing, email, photography, and various applications. Phones can connect wirelessly to cellular networks or via landline connections. They have become an integral part of daily life for communication, entertainment, productivity, and much more.\n![Phone](http://127.0.0.1:8000/static/images/phone.jpg)"
+    "content": "### A phone, short for telephone, is a telecommunications device that allows users to transmit voice or other forms of communication over distances. Originally, phones were primarily used for voice communication, but modern smartphones also offer features like text messaging, internet browsing, email, photography, and various applications. Phones can connect wirelessly to cellular networks or via landline connections. They have become an integral part of daily life for communication, entertainment, productivity, and much more.\n![Phone](http://127.0.0.1:8001/static/images/phone.jpg)"
   },
   {
     "id": 3,
     "title": "Laptop",
     "summary": "A laptop is a portable personal computer that combines a keyboard, display screen, and internal components like a processor and storage into a single device",
     "tags": ["laptop", "device", "technology", "medium size", "portable"],
-    "content": "### A laptop is a portable personal computer designed for mobile use. It typically consists of a keyboard, display screen, and internal components such as a processor, memory, storage, and various input/output ports. Laptops are powered by rechargeable batteries and can run on their own without needing to be plugged into a power source for a certain amount of time. They are versatile devices used for various tasks such as word processing, internet browsing, multimedia consumption, gaming, and much more. Laptops come in various sizes, shapes, and configurations to cater to different user needs and preferences.\n![Laptop](http://127.0.0.1:8000/static/images/laptop.jpg)"
+    "content": "### A laptop is a portable personal computer designed for mobile use. It typically consists of a keyboard, display screen, and internal components such as a processor, memory, storage, and various input/output ports. Laptops are powered by rechargeable batteries and can run on their own without needing to be plugged into a power source for a certain amount of time. They are versatile devices used for various tasks such as word processing, internet browsing, multimedia consumption, gaming, and much more. Laptops come in various sizes, shapes, and configurations to cater to different user needs and preferences.\n![Laptop](http://127.0.0.1:8001/static/images/laptop.jpg)"
   },
   {
     "id": 4,
     "title": "Car",
     "summary": "A car is a wheeled motor vehicle used for transportation",
     "tags": ["car", "4 wheels", "speed", "technology"],
-    "content": "### A car is a wheeled motor vehicle used for transportation. It is typically designed to carry passengers, although some variations are capable of carrying cargo as well. Cars generally have four wheels and are powered by internal combustion engines, electric motors, or a combination of both. They provide a convenient means of travel for individuals and families, offering mobility and freedom to explore various destinations. Cars come in different shapes, sizes, and models, ranging from compact city cars to luxury sedans, SUVs, trucks, and sports cars, each serving different purposes and preferences.\n![Car](http://127.0.0.1:8000/static/images/car.jpg)"
+    "content": "### A car is a wheeled motor vehicle used for transportation. It is typically designed to carry passengers, although some variations are capable of carrying cargo as well. Cars generally have four wheels and are powered by internal combustion engines, electric motors, or a combination of both. They provide a convenient means of travel for individuals and families, offering mobility and freedom to explore various destinations. Cars come in different shapes, sizes, and models, ranging from compact city cars to luxury sedans, SUVs, trucks, and sports cars, each serving different purposes and preferences.\n![Car](http://127.0.0.1:8001/static/images/car.jpg)"
   },
   {
     "id": 5,
     "title": "Plane",
     "summary": "A plane typically refers to an aircraft designed for air travel",
     "tags": ["plane", "technology", "air"],
-    "content": "### A plane typically refers to an aircraft designed for air travel, but it can also denote a flat surface, like a geometric plane in mathematics. In the context of aviation, planes are vehicles that rely on lift generated by wings to overcome gravity and stay airborne. They are used for various purposes, including commercial air travel, cargo transportation, military operations, and recreational flying.\n![Plane](http://127.0.0.1:8000/static/images/plane.jpg)"
+    "content": "### A plane typically refers to an aircraft designed for air travel, but it can also denote a flat surface, like a geometric plane in mathematics. In the context of aviation, planes are vehicles that rely on lift generated by wings to overcome gravity and stay airborne. They are used for various purposes, including commercial air travel, cargo transportation, military operations, and recreational flying.\n![Plane](http://127.0.0.1:8001/static/images/plane.jpg)"
   },
   {
     "id": 6,
     "title": "T-shirt",
     "summary": "A t-shirt is a type of clothes",
     "tags": ["clothes", "t-shirt"],
-    "content": "### A T-shirt is a type of garment characterized by its shape, typically with short sleeves and a round neckline, known as a crew neck. It gets its name from the T shape formed by the body and sleeves. T-shirts are usually made of cotton or a blend of cotton and other materials, making them comfortable to wear casually. They come in various styles, colors, and designs and are popular as everyday wear for both men and women. T-shirts are versatile and can be worn alone or layered under other clothing items. They're also commonly used as a medium for expressing personal style, with graphics, slogans, or images printed on them.\n![T-shirt](http://127.0.0.1:8000/static/images/t-shirt.jpg)"
+    "content": "### A T-shirt is a type of garment characterized by its shape, typically with short sleeves and a round neckline, known as a crew neck. It gets its name from the T shape formed by the body and sleeves. T-shirts are usually made of cotton or a blend of cotton and other materials, making them comfortable to wear casually. They come in various styles, colors, and designs and are popular as everyday wear for both men and women. T-shirts are versatile and can be worn alone or layered under other clothing items. They're also commonly used as a medium for expressing personal style, with graphics, slogans, or images printed on them.\n![T-shirt](http://127.0.0.1:8001/static/images/t-shirt.jpg)"
   }
 ]
