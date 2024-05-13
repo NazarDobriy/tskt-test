@@ -1,0 +1,31 @@
+<form>
+  <mat-form-field class="tag-list">
+    <mat-label>Select posts by tags</mat-label>
+    <mat-chip-grid #chipGrid>
+      <ng-container *ngFor="let tag of tags">
+        <mat-chip-row (removed)="remove(tag)">
+          {{ tag }}
+          <button matChipRemove>
+            <mat-icon>cancel</mat-icon>
+          </button>
+        </mat-chip-row>
+      </ng-container>
+    </mat-chip-grid>
+    <input
+      #tagInput
+      placeholder="Add tag..."
+      [formControl]="tagCtrl"
+      [matChipInputFor]="chipGrid"
+      [matAutocomplete]="auto"
+      [(ngModel)]="searchTag"
+    />
+    <mat-autocomplete
+      #auto="matAutocomplete"
+      (optionSelected)="selected($event)"
+    >
+      <ng-container *ngFor="let tag of allTags | searchFilter : searchTag">
+        <mat-option [value]="tag">{{ tag }}</mat-option>
+      </ng-container>
+    </mat-autocomplete>
+  </mat-form-field>
+</form>

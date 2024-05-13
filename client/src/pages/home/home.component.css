@@ -1,0 +1,16 @@
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 70px;
+}

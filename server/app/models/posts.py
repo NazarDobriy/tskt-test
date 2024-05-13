@@ -7,6 +7,7 @@ class Post(BaseModel):
     title: str
     summary: str
     tags: List[str]
+    content: str
 
 
 class TagFilterRequest(BaseModel):

@@ -1,0 +1,16 @@
+<mat-card *ngIf="post" class="card">
+  <mat-card-header>
+    <mat-card-title>{{ post.title }}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{ post.summary }}</p>
+
+    <ng-content></ng-content>
+
+    <section class="tags">
+      <ng-container *ngFor="let tag of post.tags">
+        <div class="tag">{{ tag }}</div>
+      </ng-container>
+    </section>
+  </mat-card-content>
+</mat-card>

@@ -1,0 +1,22 @@
+<main>
+  <app-tags-dropdown
+    [allTags]="allTags"
+    (tagsSelect)="handlePostsByTags($event)"
+  ></app-tags-dropdown>
+
+  <section class="cards">
+    <div *ngIf="isLoading; else content" class="spinner-container">
+      <mat-spinner diameter="80"></mat-spinner>
+    </div>
+
+    <ng-template #content>
+      <ng-container *ngFor="let post of posts">
+        <app-post-card
+          class="card"
+          [post]="post"
+          routerLink="post/{{ post.id }}"
+        ></app-post-card>
+      </ng-container>
+    </ng-template>
+  </section>
+</main>

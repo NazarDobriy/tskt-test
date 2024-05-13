@@ -1,0 +1,17 @@
+.card {
+  width: 400px;
+  background-color: darkseagreen;
+}
+
+.tags {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  width: fit-content;
+  border-radius: 100px;
+  padding: 8px 28px;
+  background-color: tomato;
+}
