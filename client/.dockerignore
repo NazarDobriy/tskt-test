@@ -1,0 +1,12 @@
+node_modules
+.angular/
+.dist/
+Dockerfile
+.docker
+.dockerignore
+.git
+.gitignore
+README.md
+.vscode
+.editorconfig
+.idea
